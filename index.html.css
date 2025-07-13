@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #0000ff12;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+header {
+    height: 600px;
+    background-image: url(Assets/Hero-bg.png);
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+.header_row {
+    color: purple;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+}
+
+.button {
+    padding: 13px 16px;
+    background: purple;
+    color: white;
+    font-size: 19px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.hero_section {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+/* header */
+.section_1 {
+    margin: 100px 0;
+}
+
+.section1_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1_col {
+    width: 600px;
+}
+
+.section1_col h1 {
+    font-size: 44px;
+    padding-top: 100px;
+}
+
+.section1_col p {
+    font-size: 14px;
+    color: #333333d3;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+/* section_1 */
+.section_container {
+    background-color: rgba(0, 0, 255, 0.238);
+    border-radius: 30px;
+    padding: 60px;
+    overflow: hidden;
+}
+
+.section2_row {
+    justify-content: space-around;
+
+
+}
+
+.section2_row h1 {
+    color: purple;
+}
+
+.section2_title {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 0 66px 0px;
+}
+
+.secton2_col h1 {
+    font-size: 44px;
+}
+
+.secton2_col p {
+    color: #333;
+    font-size: 14px;
+}
+
+/* section_2 */
+.review_title {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 44px;
+}
+
+.section3_images {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.section3_images .section3_images_image {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.section3_row {
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.section3_col {
+    background: white;
+    padding: 30px 20px;
+    border: 1px solid #33333342;
+    border-radius: 10px;
+}
+
+.section3_col h1 {
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.section3_col p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.contact-section {
+    padding: 50px;
+    display: flex;
+}
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.contact-text {
+    flex: 1;
+    min-width: 250px;
+    margin-right: 50px;
+}
+
+.contact-text h1 {
+    font-size: 3rem;
+    color: #000;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    resize: none;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: oklch(54.276% 0.25318 269.717);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #2e42d7;
+}
+
+.fooner_sectioin {
+    text-align: center;
+}
+
+.fooner_sectioin ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.fooner_sectioin ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.fooner_sectioin h1 {
+    font-size: 60px;
+    color: purple;
+    padding: 7px 0;
+}
+
+.fooner_sectioin {
+    width: 600px;
+    margin: auto;
+}
+
+.fooner_sectioin p {
+    font-size: 14px;
+    color: #333;
+    line-height: 25px;
+}
+
+footer {
+    background: white;
+    padding: 80px 0;
+}
+
+/* footer */
